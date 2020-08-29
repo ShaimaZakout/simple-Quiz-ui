@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Q5"
+    android:background="@color/lightwhite"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:onClick="goToQ6"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="التالي"
+            android:gravity="left"
+            android:textSize="20sp"
+            android:textColor="@color/blackcolor"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="القائمة"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:textColor="@color/blackcolor"
+            android:layout_weight="3"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_forward_black"
+            android:layout_weight="1"
+            android:onClick="goTomenu"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/idea"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+        android:background="@drawable/img"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="دولة من دول أروبا ؟"
+        android:textSize="20sp"
+        android:textColor="@color/blackcolor"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="الكسندر غراهبيل"
+        android:textColor="@color/whitecolor"
+        android:textStyle="bold"
+        android:background="@drawable/btn_background"
+        android:textSize="21sp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="فلهلم رونتفن"
+        android:textColor="@color/whitecolor"
+        android:textStyle="bold"
+        android:background="@drawable/btn_background"
+        android:textSize="21sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="جوزف برستلي"
+        android:textColor="@color/whitecolor"
+        android:textStyle="bold"
+        android:background="@drawable/btn_background"
+        android:textSize="21sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        />
+
+</LinearLayout>
